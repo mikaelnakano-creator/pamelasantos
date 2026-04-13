@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grupo VIP de Estética | Cuiabá</title>
+  <meta
+    name="description"
+    content="Entre no Grupo VIP de Estética em Cuiabá e receba ofertas exclusivas de produtos e procedimentos direto no WhatsApp."
+  />
+
+ <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PXNNGNLN');</script>
+<!-- End Google Tag Manager -->
+
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #171a21;
+      --primary: #f6c94c;
+      --primary-dark: #dfb02c;
+      --text: #ffffff;
+      --muted: #c7cbd4;
+      --green-soft: #d9f1e4;
+      --green-text: #28453a;
+      --shadow: 0 20px 40px rgba(0, 0, 0, 0.28);
+      --radius: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(255,255,255,0.05), transparent 30%),
+        linear-gradient(180deg, #111318 0%, #0b0d11 100%);
+      color: var(--text);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .top-bar {
+      background: var(--green-soft);
+      color: var(--green-text);
+      text-align: center;
+      padding: 14px 12px;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .hero {
+      padding: 32px 0 28px;
+    }
+
+    .card {
+      background: rgba(23, 26, 33, 0.92);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 28px 22px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(246,201,76,0.08), transparent 40%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      background: rgba(246, 201, 76, 0.14);
+      color: var(--primary);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: 42px;
+      line-height: 1.06;
+      letter-spacing: -1px;
+    }
+
+    .subheadline {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    .highlight {
+      color: var(--primary);
+    }
+
+    .comparison-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin: 24px 0 26px;
+    }
+
+    .image-box {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 10px;
+      overflow: hidden;
+    }
+
+    .image-box h3 {
+      margin: 6px 6px 12px;
+      font-size: 14px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    .image-box img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .bullet-list {
+      display: grid;
+      gap: 12px;
+      margin: 0 0 28px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .bullet-list li {
+      color: var(--text);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 14px;
+      padding: 14px 14px;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    .cta-wrap {
+      margin-top: 8px;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      min-height: 62px;
+      border-radius: 16px;
+      border: none;
+      background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: #111;
+      font-size: 20px;
+      font-weight: 900;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      box-shadow: 0 12px 24px rgba(246, 201, 76, 0.25);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      padding: 0 18px;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 28px rgba(246, 201, 76, 0.35);
+    }
+
+    .cta-note {
+      margin: 14px 0 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .urgency {
+      margin-top: 18px;
+      text-align: center;
+      font-size: 15px;
+      color: #ffd8d8;
+      font-weight: 700;
+    }
+
+    .section {
+      padding: 10px 0 26px;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      line-height: 1.2;
+      margin: 0 0 16px;
+      text-align: center;
+    }
+
+    .section p.section-intro {
+      text-align: center;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.6;
+      margin: 0 0 24px;
+    }
+
+    .proof-grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .proof-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 18px;
+    }
+
+    .proof-card strong {
+      display: block;
+      font-size: 17px;
+      margin-bottom: 8px;
+    }
+
+    .proof-card span {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .mini-cta {
+      margin-top: 26px;
+    }
+
+    .footer {
+      padding: 10px 0 40px;
+      text-align: center;
+      color: #9ea4b0;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .footer a {
+      color: #cfd5df;
+    }
+
+    @media (max-width: 640px) {
+      h1 {
+        font-size: 34px;
+      }
+
+      .subheadline {
+        font-size: 18px;
+      }
+
+      .comparison-images {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-button {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXNNGNLN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <div class="top-bar">
+    Grupo VIP gratuito para mulheres de Cuiabá
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="card">
+          <span class="eyebrow">Ofertas de estética no WhatsApp</span>
+
+          <h1>
+            Você pagaria <span class="highlight">R$67</span>...
+            ou <span class="highlight">R$36</span>?
+          </h1>
+
+          <p class="subheadline">
+            Entre no <strong>Grupo VIP de Estética</strong> e receba promoções exclusivas de produtos que indico e uso nas minhas pacientes, diretamente no seu WhatsApp!
+          </p>
+
+          <div class="comparison-images">
+            <div class="image-box">
+              <h3>Preço comum</h3>
+              <img src="assets/preco-comum.jpg" alt="Preço comum fora do grupo" />
+            </div>
+
+            <div class="image-box">
+              <h3>No grupo VIP</h3>
+              <img src="assets/preco-grupo.jpg" alt="Preço no grupo VIP" />
+            </div>
+          </div>
+
+          <ul class="bullet-list">
+            <li>✔ Ofertas diárias de produtos que indico e uso nas minhas pacientes</li>
+            <li>✔ Promoções exclusivas para mulheres de Cuiabá</li>
+            <li>✔ Sem SPAM, grupo direto e focado em oportunidade real</li>
+          </ul>
+
+          <div class="cta-wrap">
+            <a
+              href="https://chat.whatsapp.com/HMP6fU1j9vl37xrDks7u40"
+              id="btn-whatsapp"
+              class="cta-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Entrar no grupo VIP agora
+            </a>
+
+            <p class="cta-note">
+              Toque no botão e entre direto no grupo do WhatsApp.
+            </p>
+
+            <div class="urgency">
+              ⚠️ Restam apenas 14 vagas. O grupo pode ser fechado a qualquer momento.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="footer">
+        Este grupo é privado e pode ser encerrado ou limitado a qualquer momento.<br />
+      
+      </div>
+    </div>
+  </main>
+</body>
+</html>
