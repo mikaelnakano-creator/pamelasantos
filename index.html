@@ -119,6 +119,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       color: var(--primary);
     }
 
+    .mobile-cta-top {
+      display: none;
+      margin: 18px 0 22px;
+    }
+
+    .mobile-cta-top .cta-button {
+      box-shadow: 0 10px 30px rgba(246, 201, 76, 0.35);
+    }
+    
     .comparison-images {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -195,6 +204,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       box-shadow: 0 12px 24px rgba(246, 201, 76, 0.25);
       transition: transform 0.15s ease, box-shadow 0.15s ease;
       padding: 0 18px;
+      text-align: center;
+      white-space: nowrap;
     }
 
     .cta-button:hover {
@@ -281,7 +292,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       h1 {
         font-size: 34px;
       }
-
+      
+      .mobile-cta-top {
+        display: block;
+      }
+      
       .subheadline {
         font-size: 18px;
       }
@@ -291,7 +306,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }
 
       .cta-button {
-        font-size: 18px;
+        
+        font-size: 16px;
+        min-height: 58px;
+        padding: 0 14px;
+        white-space: nowrap;
       }
     }
   </style>
@@ -320,7 +339,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="subheadline">
             Entre no <strong>Grupo VIP de Estética</strong> e receba promoções exclusivas de produtos que indico e uso nas minhas pacientes, diretamente no seu WhatsApp!
           </p>
-
+<div class="mobile-cta-top">
+  <a
+    href="https://chat.whatsapp.com/HMP6fU1j9vl37xrDks7u40"
+    id="btn-whatsapp-top"
+    class="cta-button"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Entrar no grupo VIP
+  </a>
+</div>
           <div class="comparison-images">
             <div class="image-box">
               <h3>Preço comum</h3>
